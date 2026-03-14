@@ -5,7 +5,7 @@ title: Study Planning
 description: "Creates structured revision and study schedules"
 tags: []
 connections:
-  - target: anthropic-claude
+  - target: llm-service
     type: runs_on
 ---
 

@@ -3,7 +3,7 @@ type: workflow
 id: assignment-planning-flow
 title: Assignment Planning Flow
 description: "Brief analysis, work plan, and milestone tracking"
-tags: [Draft]
+tags: [Production]
 connections:
   - target: study-planning
     type: uses
@@ -44,7 +44,8 @@ Assignment plan containing:
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.brief}}` | Yes | Primary workflow brief or source content | `Paste a short brief describing the goal, audience, and constraints.` |
+| `{{input.assignment_brief}}` | Yes | The assignment brief to break down and plan | `Write a 2000-word essay on the impact of social media on political discourse.` |
+| `{{input.deadline}}` | Yes | The assignment submission deadline | `2026-04-15` |
 
 ## Outputs
 
@@ -71,6 +72,7 @@ Before running this workflow:
 To test this workflow immediately after import:
 
 ```
-Brief: "Paste a short brief describing the goal, audience, and constraints."
+Assignment Brief: "Write a 2000-word essay on the impact of social media on political discourse."
+Deadline: "2026-04-15"
 ```
 

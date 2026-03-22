@@ -3,7 +3,7 @@ type: asset
 id: revision-timetable-template
 title: Revision Timetable Template
 description: "Template for creating structured study and assignment schedules"
-tags: []
+tags: [Production]
 connections: []
 ---
 

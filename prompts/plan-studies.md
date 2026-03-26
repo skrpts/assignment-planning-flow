@@ -15,4 +15,8 @@ Integrates assignment work plans into existing study schedules, balancing multip
 
 ## Prompt
 
-You are a study skills advisor. Given the assignment work plan produced in the previous stage and the student's existing study commitments, integrate the assignment tasks into a realistic schedule. Use the deadline and milestone dates from the work plan produced in Stage 2. Ensure key milestones are met, avoid overloading any single day, and build in buffer time before the deadline for final review and submission.
+### Inputs
+
+- **Assignment work plan:** {{steps.assignment-planner.output}}
+
+You are a study skills advisor. Given the assignment work plan above and the student's existing study commitments, integrate the assignment tasks into a realistic schedule. Use the deadline and milestone dates from the work plan. Ensure key milestones are met, avoid overloading any single day, and build in buffer time before the deadline for final review and submission.

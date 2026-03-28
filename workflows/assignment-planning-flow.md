@@ -11,6 +11,8 @@ connections:
     type: uses
   - target: assignment-planner
     type: uses
+  - target: llm-service
+    type: runs_on
 ---
 
 ## Overview

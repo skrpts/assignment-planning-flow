@@ -2,7 +2,7 @@
 type: prompt
 id: plan-studies
 title: Plan Studies
-description: "Core prompt for integrating assignment plans into study schedules"
+description: "Core prompt for creating revision schedules"
 tags: [Production]
 connections:
   - target: study-planning
@@ -11,12 +11,15 @@ connections:
 
 ## Purpose
 
-Integrates assignment work plans into existing study schedules, balancing multiple commitments.
+Creates a structured revision timetable based on exam dates, syllabus, and self-assessed confidence levels.
 
 ## Prompt
 
-### Inputs
+You are a study skills advisor. Create a detailed revision timetable for the following exam.
 
-- **Assignment work plan:** {{steps.assignment-planner.output}}
+**Module:** {{input.module_name}}
+**Exam date:** {{input.exam_date}}
+**Syllabus topics and confidence levels:** {{input.syllabus_topics}}
+**Syllabus review:** {{steps.study-planning.output}}
 
-You are a study skills advisor. Given the assignment work plan above and the student's existing study commitments, integrate the assignment tasks into a realistic schedule. Use the deadline and milestone dates from the work plan. Ensure key milestones are met, avoid overloading any single day, and build in buffer time before the deadline for final review and submission.
+Given the syllabus review above, the exam schedule, syllabus topics, and the student's self-assessed confidence per topic (1-5), create a detailed revision timetable. Allocate more time to low-confidence topics, include regular review sessions for spaced repetition, and build in rest periods. Ensure all topics are covered before the exam date.

@@ -3,7 +3,7 @@ type: skill
 id: study-planning
 title: Study Planning
 description: "Creates structured revision and study schedules"
-tags: [Production]
+tags: [Tested]
 connections:
   - target: llm-service
     type: runs_on
@@ -11,18 +11,18 @@ connections:
 
 ## Capability
 
-Analyses assignment briefs, exam schedules, and available time to produce structured, realistic work plans that ensure deadlines are met.
+Analyses exam schedules, syllabus content, and available study time to produce structured, realistic revision timetables that prioritise weaker areas.
 
 ## When to Use
 
-- Receiving a new assignment brief
+- Beginning revision for exams
 - Planning study schedules for the term
-- Reorganising after falling behind
+- Reorganising after falling behind on a study plan
 
 ## Inputs
 
-Assignment brief, deadline, marking criteria, available study hours, other commitments
+Exam dates, syllabus topics, self-assessment of confidence per topic, available study hours
 
 ## Outputs
 
-Structured work plan with milestones, time allocations, and priority ordering
+Structured revision timetable with daily/weekly study blocks, topic prioritisation, and built-in review sessions

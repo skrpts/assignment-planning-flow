@@ -3,7 +3,7 @@ type: workflow
 id: assignment-planning-flow
 title: Assignment Planning Flow
 description: "Brief analysis, work plan, and milestone tracking"
-tags: [Production, communication:status, planning:learning]
+tags: [Production, Metrics, Learning]
 connections:
   - target: study-planning
     type: uses

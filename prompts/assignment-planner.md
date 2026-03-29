@@ -3,7 +3,7 @@ type: prompt
 id: assignment-planner
 title: Assignment Planner
 description: "Task prompt for breaking down assignment briefs into work plans"
-tags: [Production, planning:learning, communication:team]
+tags: [Production, Learning, Planning]
 connections:
   - target: study-planning
     type: derived_from

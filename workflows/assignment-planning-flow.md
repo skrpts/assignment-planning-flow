@@ -7,12 +7,20 @@ tags: [Production]
 connections:
   - target: study-planning
     type: uses
+  - target: note-taking
+    type: uses
   - target: plan-studies
+    type: uses
+  - target: take-notes
+    type: uses
+  - target: practice-question-generator
     type: uses
   - target: assignment-planner
     type: uses
   - target: llm-service
     type: runs_on
+  - target: critical-thinking-framework
+    type: references
 ---
 
 ## Overview

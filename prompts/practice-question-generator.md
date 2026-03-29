@@ -3,7 +3,7 @@ type: prompt
 id: practice-question-generator
 title: Practice Question Generator
 description: "Task prompt for generating exam-style practice questions"
-tags: [Tested]
+tags: [Tested, learning:study, planning:learning]
 connections:
   - target: note-taking
     type: derived_from

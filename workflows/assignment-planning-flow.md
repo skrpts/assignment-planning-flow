@@ -21,6 +21,10 @@ connections:
     type: runs_on
   - target: critical-thinking-framework
     type: references
+  - target: data-interpretation
+    type: uses
+  - target: revision-timetable-template
+    type: references
 ---
 
 ## Overview

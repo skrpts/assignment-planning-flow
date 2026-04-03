@@ -3,7 +3,7 @@ id: "df340169-45be-4cbe-a196-a7f4d6ed21ec"
 name: "assignment-planning-flow"
 display_name: "Assignment Planning Flow"
 description: "Brief analysis, work plan, and milestone tracking"
-version: "1.0.4"
+version: "1.0.5"
 engine: ">=1.0.0"
 
 # --- Attribution ---
@@ -30,11 +30,11 @@ requires:
 
 # --- Contents ---
 contents:
-  skills: 3
+  skills: 2
   prompts: 4
   workflows: 1
   services: 1
   sources: 1
   documents: 0
   assets: 1
-  total: 11
+  total: 10

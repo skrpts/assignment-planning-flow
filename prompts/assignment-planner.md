@@ -4,6 +4,19 @@ id: assignment-planner
 title: Assignment Planner
 description: "Task prompt for breaking down assignment briefs into work plans"
 tags: [Production, Learning, Planning]
+inputs:
+  assignment_brief:
+    label: "Assignment Brief"
+    description: "The full assignment brief or instructions"
+    example: "Write a 1500-word report analysing the causes of inflation in the UK economy"
+    required: true
+    type: text
+  deadline:
+    label: "Deadline"
+    description: "When the work is due"
+    example: "2026-05-20"
+    required: true
+    type: text
 connections:
   - target: study-planning
     type: derived_from

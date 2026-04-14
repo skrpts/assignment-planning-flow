@@ -15,6 +15,10 @@ connections:
     type: references
   - target: revision-timetable-template
     type: references
+output_step: "note-taking"
+composite_steps:
+  - "study-planning"
+  - "note-taking"
 execution:
   - skill: "study-planning"
     step_type: "generation"

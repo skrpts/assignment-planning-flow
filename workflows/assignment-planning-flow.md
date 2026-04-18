@@ -25,8 +25,10 @@ composite_steps:
 execution:
   - skill: "study-planning"
     step_type: "generation"
+    prompt: "assignment-planner"
   - skill: "note-taking"
     step_type: "synthesis"
+    prompt: "take-notes"
   - skill: "language-polish"
     step_type: "content"
 ---

@@ -30,6 +30,7 @@ execution:
     step_type: "synthesis"
     prompt: "take-notes"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
 ---
 

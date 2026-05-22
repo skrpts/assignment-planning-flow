@@ -3,7 +3,7 @@ id: "df340169-45be-4cbe-a196-a7f4d6ed21ec"
 name: "assignment-planning-flow"
 display_name: "Assignment Planning Flow"
 description: "Brief analysis, work plan, and milestone tracking"
-version: "1.2.20"
+version: "1.2.22"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -18,8 +18,8 @@ repository: "https://github.com/skrpts/assignment-planning-flow"
 category: "student"
 tags:
   - "assignments"
-  - "planning"
   - "organisation"
+  - "planning"
 
 # --- Security & Access ---
 requires:

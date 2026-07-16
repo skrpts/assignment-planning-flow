@@ -48,7 +48,7 @@ This workflow helps students break down assignment briefs into manageable work p
 
 ### Stage 1: Brief Analysis
 
-Invoke the **study-planning** skill to analyse the assignment brief, identify key requirements, and understand the marking criteria.
+Invoke the **study-planning** skill to analyze the assignment brief, identify key requirements, and understand the marking criteria.
 
 ### Stage 2: Work Plan Creation
 
@@ -85,7 +85,7 @@ Assignment plan containing:
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes

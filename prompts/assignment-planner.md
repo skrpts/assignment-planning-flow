@@ -8,7 +8,7 @@ inputs:
   assignment_brief:
     label: "Assignment Brief"
     description: "The full assignment brief or instructions"
-    example: "Write a 1500-word report analysing the causes of inflation in the UK economy"
+    example: "Write a 1500-word report analyzing the causes of inflation in the UK economy"
     required: true
     type: text
   deadline:

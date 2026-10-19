@@ -73,6 +73,9 @@ Assignment plan containing:
 |------|----------|-------------|---------|
 | `{{input.assignment_brief}}` | Yes | The assignment brief to break down and plan | `Write a 2000-word essay on the impact of social media on political discourse.` |
 | `{{input.deadline}}` | Yes | The assignment submission deadline | `2026-04-15` |
+| `{{input.module_name}}` | Yes | The name of the course module or subject | `Introduction to Macroeconomics` |
+| `{{input.study_material}}` | Yes | The material to study — lecture notes, textbook chapters, or readings | `[Paste lecture notes or reading material here]` |
+| `{{input.topic}}` | Yes | The main subject or topic to address | `The impact of remote work on team productivity` |
 
 ## Outputs
 

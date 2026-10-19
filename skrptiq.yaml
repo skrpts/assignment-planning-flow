@@ -3,7 +3,7 @@ id: "df340169-45be-4cbe-a196-a7f4d6ed21ec"
 name: "assignment-planning-flow"
 display_name: "Assignment Planning Flow"
 description: "Brief analysis, work plan, and milestone tracking"
-version: "1.2.26"
+version: "1.2.27"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -83,7 +83,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-16T20:22:05.898Z"
+  scanned_at: "2026-10-19T08:34:26.389Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

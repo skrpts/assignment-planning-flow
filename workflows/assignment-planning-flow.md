@@ -31,6 +31,10 @@ execution:
     step_type: "synthesis"
     prompt: "take-notes"
     output: { name: "notes", type: "text" }
+    bindings:
+      source:
+        from_step: "Study Planning"
+        field: output
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
@@ -38,6 +42,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Note-Taking"
+        field: output
 ---
 
 ## Overview
